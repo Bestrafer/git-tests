@@ -7,13 +7,15 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\Response;
 
 /**
- * @Route(path="/")
+ * Class HomeController
+ *
+ * @Route(path="/home")
  *
  */
-class DefaultController
+class HomeController
 {
     /**
-     * @Route("")
+     * @Route("/home")
      *
      * @Method("GET")
      *
@@ -23,6 +25,6 @@ class DefaultController
      */
     public function indexAction(): Response
     {
-        return new Response('', Response::HTTP_NO_CONTENT);
+        return new Response('', Response::HTTP_OK);
     }
 }
