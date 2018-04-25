@@ -7,8 +7,6 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\Response;
 
 /**
- * Class DefaultController
- *
  * @Route(path="/")
  *
  */
@@ -25,6 +23,6 @@ class DefaultController
      */
     public function indexAction(): Response
     {
-        return new Response('', Response::HTTP_OK);
+        return new Response('', Response::HTTP_NO_CONTENT);
     }
 }
