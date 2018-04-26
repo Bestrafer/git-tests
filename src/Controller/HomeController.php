@@ -25,6 +25,7 @@ class HomeController
      */
     public function indexAction(): Response
     {
+        // wind of change
         return new Response('', Response::HTTP_OK);
     }
 }

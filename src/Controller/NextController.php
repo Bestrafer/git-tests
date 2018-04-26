@@ -25,6 +25,6 @@ class NextController
      */
     public function indexAction(): Response
     {
-        return new Response('', Response::HTTP_PARTIAL_CONTENT);
+        return new Response('', Response::HTTP_CREATED);
     }
 }
