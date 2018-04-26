@@ -25,6 +25,9 @@ class AnotherController
      */
     public function indexAction(): Response
     {
+        $country1 = 'Rosja';
+        $country2 = 'Polska';
+        
         return new Response('', Response::HTTP_NO_CONTENT);
     }
 }
