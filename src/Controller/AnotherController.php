@@ -27,7 +27,7 @@ class AnotherController
     {
         $country1 = 'Rosja';
         $country2 = 'Polska';
-        $country3 = 'Niemcy';
+        $country3 = 'Niemcys';
 
         return new Response('', Response::HTTP_NO_CONTENT);
     }
