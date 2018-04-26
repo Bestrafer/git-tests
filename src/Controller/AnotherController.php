@@ -25,10 +25,11 @@ class AnotherController
      */
     public function indexAction(): Response
     {
-        $country1 = 'Rosja';
-        $country2 = 'Polska';
-        $country3 = 'Niemcys';
+        $a = 5;
+        $b = 6;
 
-        return new Response('', Response::HTTP_NO_CONTENT);
+        $c = $a + $b;
+
+        return new Response($c, Response::HTTP_NO_CONTENT);
     }
 }
