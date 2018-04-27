@@ -7,7 +7,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\Response;
 
 /**
- * Class AnotherController
+ * Class AnotherController test
  *
  * @Route(path="/another")
  *
