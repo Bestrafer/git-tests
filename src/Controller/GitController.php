@@ -24,6 +24,6 @@ class GitController
      */
     public function gitAction(): Response
     {
-        return new Response($c, Response::HTTP_NO_CONTENT);
+        return new Response('git', Response::HTTP_NO_CONTENT);
     }
 }
