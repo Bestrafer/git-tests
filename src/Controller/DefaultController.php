@@ -25,6 +25,7 @@ class DefaultController
      */
     public function indexAction(): Response
     {
+        //conflict
         return new Response('', Response::HTTP_OK);
     }
 }
