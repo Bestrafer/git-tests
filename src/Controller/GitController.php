@@ -23,6 +23,10 @@ class GitController
      */
     public function gitAction(): Response
     {
-        return new Response('git', Response::HTTP_NO_CONTENT);
+        $a = 5;
+        $b = 6;
+        $c = $a*$b;
+
+        return new Response($c, Response::HTTP_NO_CONTENT);
     }
 }
