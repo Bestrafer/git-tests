@@ -13,4 +13,9 @@ class GitService
     {
         return 5;
     }
+
+    private function additionalFunction(): int
+    {
+        return 4;
+    }
 }
