@@ -8,4 +8,9 @@ class GitService
     {
         return [];
     }
+
+    public function anotherFunction(): int
+    {
+        return 5;
+    }
 }
