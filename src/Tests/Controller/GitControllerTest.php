@@ -6,6 +6,5 @@ class GitControllerTest
 {
     public function gitTest()
     {
-        
     }
 }
