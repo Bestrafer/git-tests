@@ -25,7 +25,7 @@ class GitController
     {
         $a = 5;
         $b = 6;
-        $c = $a*$b;
+        $c = $a * $b;
 
         return new Response($c, Response::HTTP_NO_CONTENT);
     }
