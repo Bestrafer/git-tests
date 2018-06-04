@@ -19,7 +19,6 @@ class GitController
      *
      * @Method("GET")
      *
-     * @todo make fix in annotations
      * @return Response
      */
     public function gitAction(): Response
