@@ -7,7 +7,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\Response;
 
 /**
- * Class HomeController
+ * Class HomeControllerssss
  *
  * @Route(path="/")
  *

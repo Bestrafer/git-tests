@@ -7,7 +7,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\Response;
 
 /**
- * Class NextController
+ * Class NextControllerffff
  *
  * @Route(path="/next")
  *
