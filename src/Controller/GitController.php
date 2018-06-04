@@ -23,6 +23,7 @@ class GitController
      */
     public function gitAction(): Response
     {
+        //changes after php_cs_fixer
         $a = 5;
         $b = 6;
         $c = $a * $b;
